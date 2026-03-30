@@ -1,0 +1,9 @@
+# Visual Studio basura
+.vs/
+x64/
+Debug/
+Release/
+*.user
+*.aps
+*.pdb
+*.exe

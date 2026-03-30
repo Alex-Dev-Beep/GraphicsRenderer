@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{824b4042-cd17-461f-b318-2ad798606804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Drivers">
+      <UniqueIdentifier>{8b82c478-7677-4eb0-8fff-b82c1bcd8423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Drivers\OpenGL">
+      <UniqueIdentifier>{85bccc0b-6939-40e1-9a11-d4662263745d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Drivers\Vulkan">
+      <UniqueIdentifier>{0aaa4363-9be8-49af-8ba6-da711e404550}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\Librerias C++\glad\src\glad.c">
+      <Filter>Source Files\Drivers\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Vulkan.cpp">
+      <Filter>Source Files\Drivers\Vulkan</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vulkan.h">
+      <Filter>Source Files\Drivers\Vulkan</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
